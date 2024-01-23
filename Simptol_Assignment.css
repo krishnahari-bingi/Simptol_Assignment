@@ -1,0 +1,204 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    height: 150vh;
+    background-image: linear-gradient(to right, #eff285, #e69a91);
+}
+
+.navbar {
+    background-color: #f27168;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 12px;
+}
+
+.hamburger2 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        height: 300vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .main-nav {
+        background-color: #f27168;
+        height: 20px;
+        display: flex;
+        justify-content: end;
+        padding-left: 30px;
+    }
+
+    .hamburger2 {
+        height: 20px;
+        width: 20px;
+        display: flex;
+    }
+
+    .content-image-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-image {
+        height: 100px;
+        width: 100px;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .second-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-img {
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .second-img {
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+    }
+
+    .third-img {
+        height: 220px;
+        width: 100px;
+        padding: 10px;
+    }
+}
+
+.hamburger {
+    height: 20px;
+    width: 20px;
+}
+
+.content-image-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.content-container {
+    padding: 30px;
+}
+
+.heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.paragraph-text {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.click-me-button {
+    background-color: #f27168;
+    color: white;
+    font-size: 10px;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    border-width: 0;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.food-image {
+    height: 350px;
+    width: 350px;
+    padding: 0;
+    margin: 0;
+}
+
+.second-container {
+    padding: 70px;
+    display: flex;
+}
+
+.first-img {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+
+.second-img {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+
+.third-img {
+    height: 320px;
+    width: 160px;
+    padding: 10px;
+}
+
+.dual-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.f1-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.f2-container {
+    background-color: #f27168;
+    padding: 20px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-family: "Roboto";
+}
+
+.lorum {
+    font-size: 12px;
+}
+
+.lorum-heading {
+    font-size: 20px;
+}
+
+.click-container {
+    display: flex;
+}
+
+.click-text {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.click-img {
+    height: 15px;
+    width: 15px;
+    margin-top: 8px;
+    padding-left: 10px;
+    cursor: pointer;
+}
